@@ -1,0 +1,118 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important; 
+}
+
+.first {
+    background-color: green;
+}
+
+
+.second {
+    background-color: red;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 90%;
+} */
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 0
+    }
+    .one {
+        background-image: url("/public/images/bg-intro.svg");
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-size: cover;
+        height: 100vh;
+        margin:0;
+    }
+   
+    .image {
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+    .font-awesome {
+        float: right;
+        margin-top: 8%;
+    }
+
+    .font-awesome li {
+        color: white;
+        display: inline;
+        padding-right: 25px;
+    }
+
+    .text { 
+        width: 60%;
+        text-align: center;
+        text-align: left;
+        margin-left: 14%;
+        margin-top: -16%;
+        overflow-wrap: break-word;
+    }
+
+    .subtext {
+        width: 108%;
+        overflow-wrap: break-word;
+        color: #C0C0C0;
+    }
+
+    .imageillustration {
+        /* position: relative; */
+        margin-left: 80px;
+        margin-top: 76px;
+        
+    }
+
+    .sign-up {
+        border: 1px solid #e0d9d9;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        line-height: 2.0rem;
+        margin-bottom: 8%;
+        margin-left: 0
+    }
+
+    .button {
+        border: 1px solid #e0d9d9;
+        border-radius: 2px;
+        width: 65%;
+        font-size: 1.1rem;
+        padding: 1%;
+        background-color: #50c878;
+        height: 30px;
+    }
+
+    h3 {
+        margin-top: 20%;
+    }
+
+    .privacyp {
+        font-size: 60%;
+        position: right;
+        margin-left: 82%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+
+    .end {
+        margin-top: -6%;
+    }
+
+
+
+
+
+    
+    
+}
