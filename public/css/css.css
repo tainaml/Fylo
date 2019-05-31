@@ -25,7 +25,7 @@
         margin: 0
     }
     .one {
-        background-image: url("./images/bg.svg");
+        background-image: url("/images/bg.svg");
         background-repeat: no-repeat;
         background-origin: padding-box;
         background-size: cover;
